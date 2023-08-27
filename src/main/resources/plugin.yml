@@ -1,0 +1,9 @@
+name: hoard
+version: '1.0'
+main: smaamc.hoard.Hoard
+api-version: '1.20'
+commands:
+  hoard:
+    description: Hoard command
+    usage: /hoard <start|stop|load|random|reload>
+    permission: smaamc.hoard.admin

@@ -1,0 +1,22 @@
+spawn_interval: 5
+min_distance: 5
+max_distance: 15
+spawn_limit: 10
+lightning: 1200 # 1200 ticks = 60 seconds (1 minute) between lightning strikes
+lightning_strike_radius: 50
+worlds:
+  world:
+    mobs:
+      - ZOMBIE
+      - HUSK
+  world_nether:
+    mobs:
+      - PIGLIN_BRUTE
+      - PIGLIN
+  world_the_end:
+    mobs:
+      - ENDERMAN
+#customworldhere:
+#  mobs:
+#    - CREEPER
+#    - CAVE_SPIDER
